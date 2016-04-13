@@ -17,6 +17,13 @@ module NavigationHelpers
       '/houses'
     when /^the QuickRent home page$/
       '/houses'
+    when /^welcome page$/
+      '/houses/welcome'
+    when /^LOGIN$/
+      '/login'
+    when /^SIGNUP$/
+      '/signup'
+      
     when /^the (edit|details) page for "(.*)"$/
       house = House.find_by_title($2)
       $1 == "details" ? house_path(house) : edit_house_path(house)

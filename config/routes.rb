@@ -1,9 +1,15 @@
 Rails.application.routes.draw do
+  match ':controller(/:action)', :via => :get
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   root 'houses#welcome'
+  
+  match '/welcome' => 'houses#welcome', :via => :get
+  match '/login' => 'houses#login', :via => :get
+  match '/signup' => 'houses#signup', :via => :get
+  
 # rails s -p $PORT -b $IP
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

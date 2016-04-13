@@ -1,14 +1,7 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/home/ubuntu/workspace/quickrent-app/app/models/house.rb": [
-        1,
-        1,
-        22,
-        null,
-        null
-      ],
-      "/home/ubuntu/workspace/quickrent-app/app/controllers/houses_controller.rb": [
+      "/home/ubuntu/workspace/QuickRent/app/controllers/houses_controller.rb": [
         1,
         null,
         1,
@@ -22,33 +15,33 @@
         null,
         null,
         1,
-        15,
-        15,
-        15,
-        7,
-        28,
-        null,
-        null,
-        15,
-        15,
-        3,
-        null,
-        15,
-        6,
-        6,
-        6,
-        null,
-        15,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
         0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
         null,
         null,
         1,
@@ -77,31 +70,26 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/quickrent-app/app/controllers/application_controller.rb": [
+      "/home/ubuntu/workspace/QuickRent/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/home/ubuntu/workspace/quickrent-app/app/helpers/application_helper.rb": [
+      "/home/ubuntu/workspace/QuickRent/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/quickrent-app/app/helpers/houses_helper.rb": [
+      "/home/ubuntu/workspace/QuickRent/app/helpers/houses_helper.rb": [
         1,
         null,
         1,
         0,
-        null,
-        null
-      ],
-      "/home/ubuntu/workspace/quickrent-app/app/models/user.rb": [
-        1,
         null,
         null
       ]
     },
-    "timestamp": 1458936775
+    "timestamp": 1460530237
   }
 }

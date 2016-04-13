@@ -1,0 +1,23 @@
+-#  This file is app/views/houses/welcome.html.haml
+%h1 Welcome to QuickRent!
+    
+  = form_for welcome_path do
+ <%= link_to "LOGIN", '/login', :method => :get %>
+ <%= link_to "SIGNUP", '/signup', :method => :get %>
+
+  <!--= link_to 'LOGIN', login_path-->
+  <!--= link_to 'SIGNUP', signup_path-->
+%p~ "\n"
+
+=image_tag "RentAHome.jpg"
+
+
+
+<!--  = label :house, :title, 'Name'-->
+<!--  = text_field :house, 'title'-->
+
+<!--  = label :house, :release_date, 'Password'-->
+<!--  = password_field :house, 'release_date'-->
+
+<!--  = submit_tag 'Login'-->
+<!--= link_to 'Back to House Listings', houses_path-->
